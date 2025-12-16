@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Special Birthday 💌</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="happy.css">
+</head>
+<body>
+
+  <!-- Envelope Screen -->
+  <div class="envelope-container" onclick="openEnvelope()">
+    <div class="envelope">
+      <div class="letter">💌 Tap to Open</div>
+    </div>
+  </div>
+
+  <!-- Birthday Card -->
+  <div class="card hidden">
+    <h1>🎉 Happy Birthday 🎉</h1>
+    <h2 id="name">My Dulce</h2>
+    <p>Wishing you joy, love, and endless happiness.</p>
+    <button onclick="showMessage()">Open Surprise 🎁</button>
+    <p id="message"></p>
+  </div>
+
+  <script src="happy.js"></script>
+</body>
+</html>
