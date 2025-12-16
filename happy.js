@@ -51,7 +51,7 @@ function typeMessage(element) {
       element.innerText += "\n\n";
       index++;
       charIndex = 0;
-      setTimeout(() => typeMessage(element), 600);
+      setTimeout(() => typeMessage(element),700);
     }
   }
 }
